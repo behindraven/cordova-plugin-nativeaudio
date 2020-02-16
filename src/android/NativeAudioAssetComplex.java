@@ -74,9 +74,9 @@ public class NativeAudioAssetComplex implements OnPreparedListener, OnCompletion
 	{
 		try
 		{
-    				if ( mp.isPlaying() )
+    			if ( mp.isPlaying() )
 				{
-					mp.pause();
+					//mp.pause();
 					return true;
 				}
         	}
